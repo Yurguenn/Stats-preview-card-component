@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --Very-dark-blue: hsl(233, 47%, 7%);
+    --Dark-desaturated-blue: hsl(244, 38%, 16%);
+    --Soft-violet: rgb(170, 92, 219);
+    --White: hsl(0, 0%, 100%);
+    --Slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+    --Slightly-transparent-whites: hsla(0, 0%, 100%, 0.6);
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--Very-dark-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-box {
+    width: 1000px;
+    height: 400px;
+    display: flex;
+}
+
+.text-box {
+    width: 450px;
+    background-color: var(--Dark-desaturated-blue);
+    padding: 50px;
+}
+
+.title {
+    font-family: 'Inter';
+    font-size: 35px;
+    color: var(--White);
+}
+
+.span-title {
+    color: var(--Soft-violet);
+}
+
+.description {
+    font-size: 17px;
+    color: var(--Slightly-transparent-white);
+    padding-top: 35px;
+    font-family: 'Lexend deca';
+}
+
+.img-box {
+    width: 500px;
+    overflow: hidden;
+    filter: grayscale(0.56) var(--Soft-violet) invert(0.01) contrast(0.9) blur(0.1px) brightness(1.3);
+    background: url(images/image-header-desktopp.jpg);
+}
+
+.nums-box {
+    display: flex;
+    padding-top: 60px;
+    justify-content: flex-start;
+
+}
+
+.num-box {
+    padding: 10px;
+}
+
+.nums {
+    color: var(--White);
+    font-size: 20px;
+    font-family: 'Inter';
+    padding-right: 6px;
+}
+
+.nums-text {
+    color: var(--Slightly-transparent-whites);
+    font-family: 'Lexend deca';
+    padding:5px  9px 0 0;
+    font-size: 15px;
+}
